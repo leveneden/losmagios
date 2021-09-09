@@ -1,0 +1,12 @@
+Ejercicio para pensar y resolver
+
+tengo una funcion que recibe una cantidad de argumentos variable
+
+la firma de la funcion o el metodo
+
+public Double calcularInflacion(Double... inflacionMensual) {
+   // Aca pretendo que me retorne es el indice compuesto
+   return 0.0;
+}
+
+

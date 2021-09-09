@@ -1,13 +1,14 @@
 package edu.it;
 
 public class App {
-    private static int leerTeclado (String mensaje){
-        java.util.Scanner teclado = new java.util.Scanner(System.in);
-        System.out.println(mensaje);
-        return teclado.nextInt();
+    // varargs
+    public static void transformaEnArray(Integer ...args) {
+        for (var z : args) {
+            System.out.println(z);
+        }
     }
     public static void main(String[] args) throws Exception {
-        System.out.println("");
-        System.out.println(ConjeturaCollatz.corroborar(111L));
+        // new ServicioGeneraQRAnual().run();
+        transformaEnArray(1,2,5,4,3,4,7,6,8);
     }
 }
