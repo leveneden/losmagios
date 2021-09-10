@@ -1,14 +1,14 @@
 package edu.it;
 
+import static edu.it.Utiles.redondear;
+
 public class App {
-    // varargs
-    public static void transformaEnArray(Integer ...args) {
-        for (var z : args) {
-            System.out.println(z);
-        }
-    }
     public static void main(String[] args) throws Exception {
         // new ServicioGeneraQRAnual().run();
-        transformaEnArray(1,2,5,4,3,4,7,6,8);
+
+        var calculadora = new CalculadorIndiceInflacion();
+        var acumulado = calculadora.calcularInflacion(2.3d, 3d, 2.9d);
+        System.out.println(redondear(acumulado, 3));
+
     }
 }
