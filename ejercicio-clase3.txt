@@ -1,0 +1,26 @@
+----------------------------------------------------------------------
+Ejercicio
+----------------------------------------------------------------------
+
+Implementar el juego de piedra papel o tijera
+
+Pedir por pantalla si juega piedra papel o tijera.
+Luego hacer un random para la compu elija piedra papel o tijera
+
+Luego ejecutar una funcion que va a tener la siguiente firma
+
+public static int jugar(int j1, int j2) {
+
+}
+
+voy a mapear unas constantes PIEDRA, PAPEL, TIJERA a 0, 1, 2
+
+conjunto a {PIEDRA, PAPEL, TIJERA}
+
+la respuesta es 0 - Empate
+                1 - Gano jugador 1
+                2 - Gano jugador 2
+
+Los alumnos en general, empiezan a computar la jugada.
+Ahora bien. Se puede pre-computar la jugada ?
+
