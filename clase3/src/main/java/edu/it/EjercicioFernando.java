@@ -11,8 +11,50 @@ public class EjercicioFernando implements Runnable {
     public final Integer JUGADOR1 = 1;
     public final Integer JUGADOR2 = 2;
 
+
     private void mostrarJugadasIndividuales(Integer resultado, Integer jugada1, Integer jugada2) {
         System.out.println("Mostrar resultado pero componiendolo");
+
+        String ganoOPerdio;
+        String jugadaPropia;
+        String jugadaEnemiga;
+
+        String arrResultado[] = {"Empate", "Gano", "Perdio"};
+        String arrJugadas[] = {"1-Piedra", "2-Papel", "3-Tijera"};
+
+        if (resultado.equals(JUGADOR1)) {
+            ganoOPerdio = "Ganó";
+        } else if (resultado.equals(JUGADOR2)) {
+            ganoOPerdio = "Perdió";
+        } else {
+            ganoOPerdio = "Empate";
+        }
+
+        if (jugada1.equals(PIEDRA)) {
+            jugadaPropia = "1-Piedra";
+        } else if (jugada1.equals(PAPEL)) {
+            jugadaPropia = "2-Papel";
+        } else {
+            jugadaPropia = "3-Tijera";
+        }
+
+        if (jugada2.equals(PIEDRA)) {
+            jugadaEnemiga = "1-Piedra";
+        } else if (jugada2.equals(PAPEL)) {
+            jugadaEnemiga = "2-Papel";
+        } else {
+            jugadaEnemiga = "3-Tijera";
+        }
+
+        final String mensaje =
+          String.format(
+            "%s: Usted eligió %s y su oponente eligió %s",
+            arrResultado[resultado],
+            arrJugadas[jugada1-1],
+            arrJugadas[jugada2-1]
+          );
+
+        System.out.println(mensaje);
     }
 
     public Integer fnPuraJuego(Integer jugada1, Integer jugada2) {
@@ -71,7 +113,7 @@ public class EjercicioFernando implements Runnable {
     }
 
     private Integer menuCon4Intentos() {
-        Scanner input=new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         int opcion = 0;
 
         for (Integer intentos = 1; intentos <= 4; intentos++) {
