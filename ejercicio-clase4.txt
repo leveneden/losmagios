@@ -1,0 +1,35 @@
+Objeto volador
+------------------------------------------------------------------
+
+Voy a tener una interfaz ObjetoVolador
+
+despegar
+trayectoria
+aterrizar
+
+
+en un metodo vamos a tener realizarVuelo(ObjetoVolador objVol) {
+    sout("Voy a explicar la maniobra de despegue")
+    objVol.despegar();
+    sout("Voy a explicar la maniobra de trayectoria")
+    objVol.trayectoria();
+    sout("Voy a explicar la maniobra de aterrizaje");
+    objVol.aterrizar();
+}
+
+Lo que hay que hacer es:
+
+Describir lo mejor que puedo cada accion
+
+Helicoptero implements ObjetoVolador
+Avion implements ObjetoVolador
+PiedrazoHinchaArbitro implements ObjetoVolador
+
+
+
+
+
+
+
+
+
