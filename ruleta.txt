@@ -1,0 +1,42 @@
+----------------------------------------------------------------------
+Juego de Ruleta
+----------------------------------------------------------------------
+
+Reglamento Hay 0 a 36 inclusive
+
+puedo apostar a alguno de los numeros
+
+Hagan varias apuestas a los numeros y que estas se acumulen
+
+class Ruleta {
+   public void apostar(casillero, integer)
+   public tirarBolilla()
+   public mostrarResultados()
+}
+
+MostrarResultados lo que va a hacer es calcular cuanto hay que pagarle
+al ganador y cuanto gana o pierde el casino.
+
+Para esto vamos a utilizar un array de Integer[37] recordar que va de 0..36
+
+1) Me interesa la logica 100%
+2) Opcionalmente si se puede agregar la interfaz que muestra las columnas
+
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fnoticiasmercedinas.com%2Fsite%2F2019%2F10%2F08%2Fguia-para-jugar-a-la-ruleta-online%2F&psig=AOvVaw1cHHxMH7CTEhTakia8U6DC&ust=1631924881353000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMiVv4jghPMCFQAAAAAdAAAAABAD
+
+
+Lucas Ferreyra
+Henry
+
+Programacion de a pares.
+
+25 minutos programa a y b es una especie de comentarista.
+Cambio
+25 minutos programa b y a es una especie de comentarista.
+
+
+
+
+
+

@@ -1,9 +1,13 @@
 package edu.it;
 
-import edu.it.ejemplos.Polimorfismo;
-
 public class App {
     public static void main(String[] args) throws Exception {
-        new Polimorfismo().run();
+        JuegosParaApostar jpa = (JuegosParaApostar)
+                Class
+                        .forName(args[0])
+                        .getConstructor()
+                        .newInstance();
+
+        jpa.jugar();
     }
 }
