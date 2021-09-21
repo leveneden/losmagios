@@ -1,0 +1,24 @@
+----------------------------------------------------------------------
+Ejercicio de la pila o stack
+----------------------------------------------------------------------
+
+desde el metodo run de Pila
+
+tengo que llamar a estos metodos.
+
+m1 -> m2 -> m3 -> m4 -> m5 -> m6
+
+como es cada uno de los ms 
+
+ejemplo 
+
+private void m1() {
+   System.out.println("Estoy por llamar a m2");
+   m2();
+   System.out.println("Acabo de llamar a m2");
+}
+
+private void m6() {
+   System.out.println("Llegue !!! a m6");
+}
+
