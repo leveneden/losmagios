@@ -1,0 +1,22 @@
+{
+	"titulo": "Bienvenido - Ingrese una opcion",
+	"opciones": [{
+		"nroOpcion": 1,
+		"descripcion": "Jugar a la ruleta",
+		"continuar": true,
+		"claseInstanciar": "edu.it.ejemplos.Ruleta"
+	}, {
+		"nroOpcion": 2,
+		"descripcion": "Jugar a piedra papel o tijera",
+		"continuar": true,
+		"claseInstanciar": "edu.it.ejemplos.PPT"
+	}, {
+		"nroOpcion": 3,
+		"descripcion": "Salir",
+		"continuar": false,
+		"claseInstanciar": "N/A"
+	}],
+	"configuracion": {
+		"totalIntentos": 4
+	}
+}
